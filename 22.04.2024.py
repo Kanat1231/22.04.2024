@@ -67,7 +67,7 @@ def find_max(list1):
             total = i
     return total
 
-print(find_max([1,8,3,22,5]))
+print(find_max([2,4,11,3,22]))
 
 
 
