@@ -58,6 +58,19 @@ print(find_min([1,2,1,-2,9]))
 
 
 
+def find_max(list1):
+    maximum_number = list1[0]
+    a=0
+    for i in range (len(list1)):
+        if list1[i] > maximum_number:
+            maximum_number = list1[i]
+            total = i
+    return total
+
+print(find_max([1,8,3,22,5]))
+
+
+
 
 
 
